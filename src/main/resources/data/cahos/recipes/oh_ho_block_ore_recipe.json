@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cahos:oh_ho_block"
+    }
+  ],
+  "result": {
+    "item": "cahos:oh_ho",
+    "count": 9
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "cahos:oh_ho"
+    },
+    "1": {
+      "item": "cahos:oh_ho"
+    },
+    "2": {
+      "item": "cahos:oh_ho"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cahos:oh_pickaxe",
+    "count": 1
+  }
+}

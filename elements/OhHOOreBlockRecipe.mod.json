@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:OhHO"
+      },
+      {
+        "value": "CUSTOM:OhHO"
+      },
+      {
+        "value": "CUSTOM:OhHO"
+      },
+      {
+        "value": "CUSTOM:OhHO"
+      },
+      {
+        "value": "CUSTOM:OhHO"
+      },
+      {
+        "value": "CUSTOM:OhHO"
+      },
+      {
+        "value": "CUSTOM:OhHO"
+      },
+      {
+        "value": "CUSTOM:OhHO"
+      },
+      {
+        "value": "CUSTOM:OhHO"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OhHOBlock"
+    },
+    "name": "oh_ho_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

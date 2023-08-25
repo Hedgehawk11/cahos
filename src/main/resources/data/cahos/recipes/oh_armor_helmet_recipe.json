@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "cahos:oh_ho"
+    },
+    "1": {
+      "item": "cahos:oh_ho"
+    },
+    "2": {
+      "item": "cahos:oh_ho"
+    },
+    "3": {
+      "item": "cahos:oh_ho"
+    },
+    "5": {
+      "item": "cahos:oh_ho"
+    }
+  },
+  "result": {
+    "item": "cahos:oh_armor_helmet",
+    "count": 1
+  }
+}

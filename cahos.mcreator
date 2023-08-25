@@ -1,9 +1,292 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "OhHO",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_ho",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cahos/models/item/oh_ho.json",
+          "src/main/java/net/mcreator/cahos/item/OhHOItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OhHOOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_ho_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cahos/blockstates/oh_ho_ore.json",
+          "src/main/java/net/mcreator/cahos/block/OhHOOreBlock.java",
+          "src/main/resources/assets/cahos/models/block/oh_ho_ore.json",
+          "src/main/resources/assets/cahos/models/item/oh_ho_ore.json",
+          "src/main/java/net/mcreator/cahos/world/features/ores/OhHOOreFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "OhHOBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_ho_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cahos/blockstates/oh_ho_block.json",
+          "src/main/resources/assets/cahos/models/item/oh_ho_block.json",
+          "src/main/java/net/mcreator/cahos/block/OhHOBlockBlock.java",
+          "src/main/resources/assets/cahos/models/block/oh_ho_block.json"
+        ]
+      }
+    },
+    {
+      "name": "OhHOOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_ho_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_ho_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhHOBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_ho_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_ho_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhHOOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_ho_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_ho_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "OhPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cahos/models/item/oh_pickaxe.json",
+          "src/main/java/net/mcreator/cahos/item/OhPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OhAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cahos/item/OhAxeItem.java",
+          "src/main/resources/assets/cahos/models/item/oh_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cahos/item/OhSwordItem.java",
+          "src/main/resources/assets/cahos/models/item/oh_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "OhShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cahos/item/OhShovelItem.java",
+          "src/main/resources/assets/cahos/models/item/oh_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "OhHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cahos/item/OhHoeItem.java",
+          "src/main/resources/assets/cahos/models/item/oh_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cahos/models/item/oh_armor_helmet.json",
+          "src/main/resources/assets/cahos/models/item/oh_armor_boots.json",
+          "src/main/resources/assets/cahos/models/item/oh_armor_leggings.json",
+          "src/main/java/net/mcreator/cahos/item/OhArmorItem.java",
+          "src/main/resources/assets/cahos/models/item/oh_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "OhArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/oh_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.cahos.oh_axe": "Oh Axe",
+      "item.cahos.oh_armor_boots": "Oh Boots",
+      "item.cahos.oh_armor_chestplate": "Oh Chestplate",
+      "item.cahos.oh_pickaxe": "Oh Pickaxe",
+      "item.cahos.oh_shovel": "Oh Shovel",
+      "block.cahos.oh_ho_ore": "OhHO Ore",
+      "item.cahos.oh_ho": "OhHO",
+      "item.cahos.oh_hoe": "Oh Hoe",
+      "block.cahos.oh_ho_block": "Block of OhHO",
+      "item.cahos.oh_sword": "Oh Sword",
+      "item.cahos.oh_armor_helmet": "Oh Helmet",
+      "item.cahos.oh_armor_leggings": "Oh Leggings"
+    }
   },
   "foldersRoot": {
     "name": "~",

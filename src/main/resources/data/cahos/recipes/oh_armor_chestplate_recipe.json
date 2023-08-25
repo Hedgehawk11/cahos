@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "cahos:oh_ho"
+    },
+    "2": {
+      "item": "cahos:oh_ho"
+    },
+    "3": {
+      "item": "cahos:oh_ho"
+    },
+    "4": {
+      "item": "cahos:oh_ho"
+    },
+    "5": {
+      "item": "cahos:oh_ho"
+    },
+    "6": {
+      "item": "cahos:oh_ho"
+    },
+    "7": {
+      "item": "cahos:oh_ho"
+    },
+    "8": {
+      "item": "cahos:oh_ho"
+    }
+  },
+  "result": {
+    "item": "cahos:oh_armor_chestplate",
+    "count": 1
+  }
+}
