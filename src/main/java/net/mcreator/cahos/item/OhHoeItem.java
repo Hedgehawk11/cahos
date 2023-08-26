@@ -8,6 +8,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.cahos.init.CahosModItems;
+
 public class OhHoeItem extends HoeItem {
 	public OhHoeItem() {
 		super(new Tier() {

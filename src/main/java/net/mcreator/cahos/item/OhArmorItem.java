@@ -11,6 +11,8 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 
+import net.mcreator.cahos.init.CahosModItems;
+
 public abstract class OhArmorItem extends ArmorItem {
 	public OhArmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {

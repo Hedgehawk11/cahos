@@ -8,6 +8,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.cahos.init.CahosModItems;
+
 public class OhSwordItem extends SwordItem {
 	public OhSwordItem() {
 		super(new Tier() {
@@ -20,7 +22,7 @@ public class OhSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 8f;
+				return 28f;
 			}
 
 			public int getLevel() {

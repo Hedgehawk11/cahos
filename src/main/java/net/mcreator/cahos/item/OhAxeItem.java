@@ -8,6 +8,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.AxeItem;
 
+import net.mcreator.cahos.init.CahosModItems;
+
 public class OhAxeItem extends AxeItem {
 	public OhAxeItem() {
 		super(new Tier() {
@@ -20,7 +22,7 @@ public class OhAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 8f;
+				return 43f;
 			}
 
 			public int getLevel() {

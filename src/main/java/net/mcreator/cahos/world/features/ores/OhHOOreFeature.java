@@ -30,6 +30,8 @@ import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.mcreator.cahos.init.CahosModBlocks;
+
 import java.util.Set;
 import java.util.Random;
 import java.util.List;

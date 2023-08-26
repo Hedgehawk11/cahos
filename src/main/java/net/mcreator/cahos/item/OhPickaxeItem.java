@@ -8,6 +8,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.cahos.init.CahosModItems;
+
 public class OhPickaxeItem extends PickaxeItem {
 	public OhPickaxeItem() {
 		super(new Tier() {
