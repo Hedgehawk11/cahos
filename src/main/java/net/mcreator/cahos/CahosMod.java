@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.cahos.init.CahosModItems;
 import net.mcreator.cahos.init.CahosModFeatures;
+import net.mcreator.cahos.init.CahosModEntities;
 import net.mcreator.cahos.init.CahosModBlocks;
 
 import java.util.function.Supplier;
@@ -47,6 +48,7 @@ public class CahosMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		CahosModBlocks.REGISTRY.register(bus);
 		CahosModItems.REGISTRY.register(bus);
+		CahosModEntities.REGISTRY.register(bus);
 
 		CahosModFeatures.REGISTRY.register(bus);
 

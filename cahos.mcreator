@@ -301,6 +301,21 @@
           "src/main/resources/data/cahos/advancements/oh_no.json"
         ]
       }
+    },
+    {
+      "name": "Buttion",
+      "type": "rangeditem",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cahos/entity/ButtionEntity.java",
+          "src/main/resources/assets/cahos/models/item/buttion.json",
+          "src/main/java/net/mcreator/cahos/item/ButtionItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -310,6 +325,7 @@
       "item.cahos.oh_axe": "Oh Axe",
       "item.cahos.oh_armor_boots": "Oh Boots",
       "item.cahos.oh_armor_chestplate": "Oh Chestplate",
+      "item.cahos.buttion": "Oh boy",
       "item.cahos.oh_pickaxe": "Oh Pickaxe",
       "item.cahos.oh_shovel": "Oh Shovel",
       "block.cahos.oh_ho_ore": "OhHO Ore",

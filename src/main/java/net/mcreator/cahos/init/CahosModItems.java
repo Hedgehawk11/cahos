@@ -20,6 +20,7 @@ import net.mcreator.cahos.item.OhHoeItem;
 import net.mcreator.cahos.item.OhHOItem;
 import net.mcreator.cahos.item.OhAxeItem;
 import net.mcreator.cahos.item.OhArmorItem;
+import net.mcreator.cahos.item.ButtionItem;
 import net.mcreator.cahos.CahosMod;
 
 public class CahosModItems {
@@ -36,6 +37,7 @@ public class CahosModItems {
 	public static final RegistryObject<Item> OH_ARMOR_CHESTPLATE = REGISTRY.register("oh_armor_chestplate", () -> new OhArmorItem.Chestplate());
 	public static final RegistryObject<Item> OH_ARMOR_LEGGINGS = REGISTRY.register("oh_armor_leggings", () -> new OhArmorItem.Leggings());
 	public static final RegistryObject<Item> OH_ARMOR_BOOTS = REGISTRY.register("oh_armor_boots", () -> new OhArmorItem.Boots());
+	public static final RegistryObject<Item> BUTTION = REGISTRY.register("buttion", () -> new ButtionItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
