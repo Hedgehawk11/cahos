@@ -1,7 +1,8 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "tool",
   "definition": {
+    "toolType": "Axe",
     "renderType": 0,
     "texture": "oh_axe",
     "customModelName": "Normal",
@@ -10,7 +11,6 @@
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Axe",
     "harvestLevel": 10,
     "efficiency": 16.0,
     "attackSpeed": 1.0,

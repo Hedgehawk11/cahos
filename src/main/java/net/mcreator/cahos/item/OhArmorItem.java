@@ -1,6 +1,8 @@
 
 package net.mcreator.cahos.item;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -10,6 +12,7 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.cahos.init.CahosModItems;
 
@@ -33,7 +36,7 @@ public abstract class OhArmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return null;
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
 			}
 
 			@Override
