@@ -1,14 +1,7 @@
 
 package net.mcreator.cahos.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-
-import net.mcreator.cahos.init.CahosModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class OhSwordItem extends SwordItem {
 	public OhSwordItem() {
@@ -36,6 +29,6 @@ public class OhSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(CahosModItems.OH_HO.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3f, new Item.Properties());
 	}
 }

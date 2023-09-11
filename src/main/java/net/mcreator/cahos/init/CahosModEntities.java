@@ -21,7 +21,7 @@ import net.mcreator.cahos.CahosMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class CahosModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, CahosMod.MODID);
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, CahosMod.MODID);
 	public static final RegistryObject<EntityType<ButtionEntity>> BUTTION = register("projectile_buttion",
 			EntityType.Builder.<ButtionEntity>of(ButtionEntity::new, MobCategory.MISC).setCustomClientFactory(ButtionEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 

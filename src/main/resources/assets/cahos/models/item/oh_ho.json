@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cahos:items/ohho_gem"
+    "layer0": "cahos:item/ohho_gem"
   }
 }

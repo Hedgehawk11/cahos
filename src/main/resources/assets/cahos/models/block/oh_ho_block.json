@@ -1,7 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "cahos:blocks/ohho_ore_block",
-    "particle": "cahos:blocks/ohho_ore_block"
-  }
+    "all": "cahos:block/ohho_ore_block",
+    "particle": "cahos:block/ohho_ore_block"
+  },
+  "render_type": "solid"
 }

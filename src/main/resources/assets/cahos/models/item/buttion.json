@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cahos:items/buttion"
+    "layer0": "cahos:item/buttion"
   },
   "display": {
     "thirdperson_righthand": {

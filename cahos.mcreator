@@ -26,7 +26,10 @@
           "src/main/resources/assets/cahos/blockstates/oh_ho_ore.json",
           "src/main/java/net/mcreator/cahos/block/OhHOOreBlock.java",
           "src/main/resources/assets/cahos/models/block/oh_ho_ore.json",
+          "src/main/resources/data/cahos/worldgen/configured_feature/oh_ho_ore.json",
           "src/main/resources/assets/cahos/models/item/oh_ho_ore.json",
+          "src/main/resources/data/cahos/worldgen/placed_feature/oh_ho_ore.json",
+          "src/main/resources/data/cahos/forge/biome_modifier/oh_ho_ore_biome_modifier.json",
           "src/main/java/net/mcreator/cahos/world/features/ores/OhHOOreFeature.java"
         ]
       }
@@ -293,6 +296,7 @@
     {
       "name": "OhNo",
       "type": "achievement",
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oh_no",
@@ -314,6 +318,19 @@
           "src/main/java/net/mcreator/cahos/entity/ButtionEntity.java",
           "src/main/resources/assets/cahos/models/item/buttion.json",
           "src/main/java/net/mcreator/cahos/item/ButtionItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftButtion",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_buttion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cahos/recipes/craft_buttion.json"
         ]
       }
     }
@@ -346,7 +363,7 @@
   "workspaceSettings": {
     "modid": "cahos",
     "modName": "cahos",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "oh boy",
     "author": "Hedgehawk11",
     "websiteURL": "https://mcreator.net",
@@ -357,7 +374,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.18.2",
+    "currentGenerator": "forge-1.19.4",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.cahos",
     "lockBaseModFiles": false

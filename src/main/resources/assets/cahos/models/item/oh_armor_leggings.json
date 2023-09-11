@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cahos:items/oh_leggings"
+    "layer0": "cahos:item/oh_leggings"
   }
 }

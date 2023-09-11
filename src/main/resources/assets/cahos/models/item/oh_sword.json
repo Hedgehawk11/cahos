@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "cahos:items/oh_sword"
+    "layer0": "cahos:item/oh_sword"
   }
 }

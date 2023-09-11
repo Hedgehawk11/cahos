@@ -6,24 +6,26 @@
     "texture": "buttion",
     "customModelName": "Normal",
     "name": "Oh boy",
-    "specialInfo": [],
+    "specialInfo": [
+      "send dripstone"
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": ""
+      "value": "Blocks.POINTED_DRIPSTONE"
     },
     "shootConstantly": true,
     "usageCount": 100,
     "actionSound": {
-      "value": "entity.arrow.shoot"
+      "value": "block.stone.fall"
     },
     "hasGlow": false,
     "animation": "spear",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 1.0,
+    "bulletPower": 2.0,
     "bulletDamage": 5.0,
     "bulletKnockback": 1,
     "bulletParticles": true,

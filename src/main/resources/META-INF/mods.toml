@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[45,)"
 license="MIT License"
 
 [[mods]]
 modId="cahos"
-version="1.0.0"
+version="1.1.0"
 displayName="cahos"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
@@ -14,7 +14,7 @@ description="oh boy"
 [[dependencies.cahos]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2]"
+    versionRange="[1.19.4]"
     ordering="NONE"
     side="BOTH"
 

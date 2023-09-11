@@ -10,7 +10,6 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.cahos.item.OhSwordItem;
@@ -25,8 +24,8 @@ import net.mcreator.cahos.CahosMod;
 
 public class CahosModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, CahosMod.MODID);
-	public static final RegistryObject<Item> OH_HO_BLOCK = block(CahosModBlocks.OH_HO_BLOCK, null);
-	public static final RegistryObject<Item> OH_HO_ORE = block(CahosModBlocks.OH_HO_ORE, null);
+	public static final RegistryObject<Item> OH_HO_BLOCK = block(CahosModBlocks.OH_HO_BLOCK);
+	public static final RegistryObject<Item> OH_HO_ORE = block(CahosModBlocks.OH_HO_ORE);
 	public static final RegistryObject<Item> OH_AXE = REGISTRY.register("oh_axe", () -> new OhAxeItem());
 	public static final RegistryObject<Item> OH_PICKAXE = REGISTRY.register("oh_pickaxe", () -> new OhPickaxeItem());
 	public static final RegistryObject<Item> OH_SWORD = REGISTRY.register("oh_sword", () -> new OhSwordItem());
@@ -39,7 +38,7 @@ public class CahosModItems {
 	public static final RegistryObject<Item> OH_ARMOR_BOOTS = REGISTRY.register("oh_armor_boots", () -> new OhArmorItem.Boots());
 	public static final RegistryObject<Item> BUTTION = REGISTRY.register("buttion", () -> new ButtionItem());
 
-	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
 	}
 }
